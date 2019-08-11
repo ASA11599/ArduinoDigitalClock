@@ -5,7 +5,7 @@ class Time:
 		self.m = m
 		self.s = s
 	
-	def __repr__(self):
+	def __str__(self):
 		return str(self.h) + ":" + str(self.m) + ":" + str(self.s)
 	
 	def main(self):
@@ -29,7 +29,7 @@ class Date:
 		self.m = m
 		self.y = y
 	
-	def __repr__(self):
+	def __str__(self):
 		return str(self.d) + "|" + str(self.m) + "|" + str(self.y)
 
 	def is_leap_year(self):
@@ -62,7 +62,7 @@ class Stopwatch:
 		self.m = 0
 		self.stopped = False
 
-	def __repr__(self):
+	def __str__(self):
 		return str(self.m) + ":" + str(self.s)
 
 	def stop(self):
@@ -86,7 +86,7 @@ class Timer:
 		self.m = m
 		self.s = s
 	
-	def __repr__(self):
+	def __str__(self):
 		return str(self.m) + ":" + str(self.s)
 	
 	def main(self):
