@@ -1,0 +1,7 @@
+namespace DigitalClock
+{
+    class Time
+    {
+        
+    };
+}
