@@ -1,7 +1,0 @@
-namespace DigitalClock
-{
-    class Timer
-    {
-        
-    };
-}
